@@ -9,10 +9,10 @@ import Capacitor
 public class nativeHttpGetPlugin: CAPPlugin {
     private let implementation = nativeHttpGet()
 
-    @objc func echo(_ call: CAPPluginCall) {
-        let value = call.getString("value") ?? ""
+    @objc func get(_ call: CAPPluginCall) {
+        let value = call.getString("url") ?? ""
         call.resolve([
-            "value": implementation.echo(value)
+            "response": implementation.echo(value)
         ])
     }
 }

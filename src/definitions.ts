@@ -1,3 +1,3 @@
 export interface nativeHttpGetPlugin {
-  echo(options: { value: string }): Promise<{ value: string }>;
+  get(options: { url: string }): Promise<{ url: string }>;
 }
