@@ -1,0 +1,31 @@
+{
+  "api": {
+    "name": "nativeHttpGetPlugin",
+    "slug": "nativehttpgetplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "get",
+        "signature": "(options: { url: string; }) => Promise<{ url: string; }>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "{ url: string; }"
+          }
+        ],
+        "returns": "Promise<{ url: string; }>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "get"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [],
+  "enums": [],
+  "typeAliases": [],
+  "pluginConfigs": []
+}
